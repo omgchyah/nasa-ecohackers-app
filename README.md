@@ -1,6 +1,6 @@
-🌍 ECOHACKERS
+#🌍 ECOHACKERS#
 
-This project is a full-stack web application that integrates a Spring Boot backend with an Angular frontend. 🚀
+Welcome to EcoHackers! This project is a full-stack web application that integrates a Spring Boot backend with an Angular frontend. 🚀
 📋 Table of Contents
 
     Technologies Used
@@ -21,7 +21,7 @@ This project is a full-stack web application that integrates a Spring Boot backe
 
 ✅ Prerequisites
 
-Make sure you have the following installed before proceeding:
+Make sure you have the following installed:
 
     Java JDK (version 17 or higher) ☕
     Node.js (version 14 or higher) 🟢
@@ -52,7 +52,8 @@ bash
 mvn clean install
 
     Database Configuration:
-    Edit src/main/resources/application.properties to configure your MySQL database:
+
+Edit the file src/main/resources/application.properties to configure your MySQL database:
 
 properties
 
@@ -103,9 +104,11 @@ export const environment = {
 🚀 Running the Application
 
     Start the Backend:
+
     Follow the steps in Backend Setup.
 
     Start the Frontend:
+
     Follow the steps in Frontend Setup.
 
     Open your browser and navigate to http://localhost:4200.
@@ -113,16 +116,18 @@ export const environment = {
 ❗ Common Issues
 
     Port Conflicts:
+
     If ports 8080 (backend) or 4200 (frontend) are in use, change the ports:
         Spring Boot: Edit application.properties and change server.port=8081.
         Angular: Run ng serve --port 4201.
 
     CORS Issues:
+
     Ensure CORS is configured in your Spring Boot backend by adding appropriate headers or using @CrossOrigin annotations.
 
 🤝 Contributing
 
-Feel free to fork this repository, create a feature branch, and submit pull requests. For major changes, please open an issue to discuss the changes you would like to make.
+Feel free to fork this repository, create a feature branch, and submit a pull request. For major changes, please open an issue to discuss the changes you'd like to make.
 📜 License
 
 This project is licensed under the MIT License.
